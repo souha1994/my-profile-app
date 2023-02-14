@@ -1,0 +1,146 @@
+<div style="background: white; margin-left: 20px; margin-right: 20px; border-radius: 5px;">
+  <div class="container" style="margin-left: 20px; margin-right: 20px; padding: 20px;">
+    <img src="assets\bonhome.png" alt="" style="border-radius: 50%; " width="70px" height="70px">
+    <div>
+      <p style="color: gray;"><b>Votre photo de profil</b></p>
+      <div class="container">
+        <button id="bt1" type="button" class="btn btn-primary btn-sm"><i class="bi bi-pencil-fill"></i><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z" />
+          </svg> Remplacer</button>
+        <button id="bt2" type="button" class="btn btn-primary btn-sm"><i class="bi bi-trash3-fill"></i><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3-fill"
+            viewBox="0 0 16 16">
+            <path
+              d="M11 1.5v1h3.5a.5.5 0 0 1 0 1h-.538l-.853 10.66A2 2 0 0 1 11.115 16h-6.23a2 2 0 0 1-1.994-1.84L2.038 3.5H1.5a.5.5 0 0 1 0-1H5v-1A1.5 1.5 0 0 1 6.5 0h3A1.5 1.5 0 0 1 11 1.5Zm-5 0v1h4v-1a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0-.5.5ZM4.5 5.029l.5 8.5a.5.5 0 1 0 .998-.06l-.5-8.5a.5.5 0 1 0-.998.06Zm6.53-.528a.5.5 0 0 0-.528.47l-.5 8.5a.5.5 0 0 0 .998.058l.5-8.5a.5.5 0 0 0-.47-.528ZM8 4.5a.5.5 0 0 0-.5.5v8.5a.5.5 0 0 0 1 0V5a.5.5 0 0 0-.5-.5Z" />
+          </svg> Supprimer</button>
+      </div>
+    </div>
+  </div>
+  <form>
+    <div class="row" style="margin-left: 20px; margin-right: 20px; padding: 20px;">
+      <div class="col-6">
+        <label class="form-label">Nom</label>
+        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="col-6">
+        <label class="form-label">Prénom</label>
+        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="col-6">
+        <label for="exampleInputEmail1" class="form-label">Adresse E-mail</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+      <div class="col-6">
+        <label class="form-label">Date de naissance</label>
+        <input type="text" class="form-control" placeholder="15/03/1990" aria-label="Username"
+          aria-describedby="basic-addon1">
+        <span class="visually-hidden input-group-text"><i class="bi bi-calendar"></i><svg
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar"
+            viewBox="0 0 16 16">
+            <path
+              d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z" />
+          </svg></span>
+      </div>
+
+      <div class="col-6">
+        <label class="form-label">Numéro de Téléphone</label> <br>
+        <button type="button" class="btn btn-outline-secondary" style="width: min-content;"><i
+            class="bi bi-flag-fill"></i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+            fill="currentColor" class="bi bi-flag-fill" viewBox="0 0 16 16">
+            <path
+              d="M14.778.085A.5.5 0 0 1 15 .5V8a.5.5 0 0 1-.314.464L14.5 8l.186.464-.003.001-.006.003-.023.009a12.435 12.435 0 0 1-.397.15c-.264.095-.631.223-1.047.35-.816.252-1.879.523-2.71.523-.847 0-1.548-.28-2.158-.525l-.028-.01C7.68 8.71 7.14 8.5 6.5 8.5c-.7 0-1.638.23-2.437.477A19.626 19.626 0 0 0 3 9.342V15.5a.5.5 0 0 1-1 0V.5a.5.5 0 0 1 1 0v.282c.226-.079.496-.17.79-.26C4.606.272 5.67 0 6.5 0c.84 0 1.524.277 2.121.519l.043.018C9.286.788 9.828 1 10.5 1c.7 0 1.638-.23 2.437-.477a19.587 19.587 0 0 0 1.349-.476l.019-.007.004-.002h.001" />
+          </svg></button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+          data-bs-toggle="dropdown" aria-expanded="false" style="width: min-content;">
+          <span class="visually-hidden">Toggle Dropdown</span>
+        </button>
+        <input type="text" class="form-control" placeholder="(+33)- -- -- -- --" aria-label="Username"
+          aria-describedby="basic-addon1">
+      </div>
+      <div class="col-6">
+        <label class="form-label">Genre</label>
+        <div style="display: flex; align-items: center;">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1">
+              Parent 1
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+            <label class="form-check-label" for="flexRadioDefault2">
+              Parent 2
+            </label>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </form>
+  <div class="container" style="padding: 10px; position: relative; right: 30px; left: 1100px;">
+    <button id="bt3" type="button" class="btn btn-primary btn-sm"> Annuler</button>
+    <button id="bt1" type="button" class="btn btn-primary btn-sm"> Enregistrer</button>
+  </div>
+</div>
+
+
+
+<!--<div class="d-flex justify-content-between">
+    <button type="button" class="btn btn-outline-primary">Modifier mon profil</button>
+    <button type="button" class="btn btn-primary">Mes enfants</button>
+  </div>
+  <h5 class="card-title text-center mt-3" style="color: blue;">INFORMATION DE BASE</h5>
+  <div class="row">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="text-center profile-image">
+        <img [src]="profileImage" class="img-fluid rounded">
+        <div class="d-flex justify-content-center profile-image-actions mt-3">
+            <div class="d-flex justify-content-between">
+            <button type="button" class="btn btn-primary">Remplacer</button>
+            <button type="button" class="btn btn-outline-primary">Supprimer</button></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="profile-details mt-5">
+        <form>
+          <div class="form-group">
+            <label for="firstName">Nom</label>
+            <input type="text" id="firstName" class="form-control" [(ngModel)]="firstName">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Prénom</label>
+            <input type="text" id="lastName" class="form-control" [(ngModel)]="lastName">
+          </div>
+          <div class="form-group">
+            <label for="address">Adresse email</label>
+            <input type="email" id="address" class="form-control" [(ngModel)]="address">
+          </div>
+          <div class="form-group">
+            <label>Date d'anniversaire:</label>
+            <input type="date" class="form-control" [(ngModel)]="dateOfBirth">
+          </div>
+          <div class="form-group">
+            <label for="phone">Numéro de téléphone</label>
+            <select class="form-control" [(ngModel)]="phoneNumber">
+              <option *ngFor="let country of country" [value]="country.phoneNumber">{{country.code}} - {{country.phoneNumber}}</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="gender">Genre</label>
+            <select id="gender" class="form-control" [(ngModel)]="gender">
+              <option value="Male">Parent 1</option>
+              <option value="Female">Parent 2</option>
+            </select>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="d-flex justify-content-end mt-3">
+ 
+  <button class="btn btn-primary" >Enregister</button>
+  <button class="btn btn-danger" >Annuler</button>-->

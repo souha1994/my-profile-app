@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    /* utilisez flexbox pour positionner les boutons */
+    align-items: center;
+    /* alignez les boutons verticalement */
+}
+
+button {
+    margin-right: 10px;
+    /* ajoutez une marge à droite pour séparer les boutons */
+    padding: 10px 20px;
+    /* taille de la zone de clic */
+}
+
+div {
+    padding: 10px;
+}
+
+#bt1 {
+    background: linear-gradient(to right, #4492CC, #3EBDF6);
+    color: white;
+    /* couleur du texte */
+    border: none;
+    /* supprime la bordure */
+}
+
+#bt2 {
+    background: white;
+    color: #4492CC;
+    /* couleur du texte */
+    border-width: 2px; 
+    border-color: #4492CC;
+}

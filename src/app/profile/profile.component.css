@@ -1,0 +1,72 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-bottom: 25px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.form-control {
+  width: 50%;
+}
+
+.btn {
+  width: 25%;
+  margin-top: 25px;
+}
+
+.container {
+  display: flex; /* utilise un affichage en mode flexbox */
+  align-items: center; /* aligne les éléments sur la ligne centrale verticale */
+  gap: 1rem; /* définit l'espacement horizontal entre les éléments */
+}
+
+#bt1 {
+  background: linear-gradient(to right, #4492CC, #3EBDF6);
+  color: white;
+  /* couleur du texte */
+  border: none;
+  /* supprime la bordure */
+  width: max-content;
+}
+
+#bt2 {
+  background: white;
+  color: #4492CC;
+  /* couleur du texte */
+  border-width: 2px; 
+  border-color: #4492CC;
+  width: max-content;
+}
+
+#bt3 {
+  background: #E6E9F2;
+  color: gray;
+  /* couleur du texte */
+  border: none;
+  /* supprime la bordure */
+  width: 90px;;
+}
+
+div > input {
+  margin-bottom: 20px;
+}
+
+div > label {
+  color: gray;
+  margin-bottom: 10px;
+}
+

@@ -1,0 +1,114 @@
+.container1 {
+    align-items: center;
+    /* Pour centrer les div horizontalement dans la div parent */
+}
+
+.box {
+    display: inline-block;
+    /* Pour disposer les div côte à côte sur la même ligne */
+    width: 200px;
+    /* La largeur souhaitée pour chaque div */
+    height: 100px;
+    /* La hauteur souhaitée pour chaque div */
+    background-color: #ccc;
+    /* Pour une meilleure visibilité */
+    margin: 10px;
+    /* Pour ajouter un espace entre chaque div */
+}
+
+.imgcenter {
+    position: relative;
+    /* La div parent doit avoir une position relative */
+}
+
+.imgcenter img {
+    position: absolute;
+    /* L'image doit avoir une position absolue */
+    top: 0;
+    /* Positionner l'image en haut de la div parent */
+    left: 50%;
+    /* Positionner l'image à mi-chemin de la largeur de la div parent */
+    transform: translateX(-50%);
+    /* Déplacer l'image de moitié de sa propre largeur vers la gauche pour la centrer horizontalement */
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    /* utilise un affichage en mode flexbox */
+    align-items: center;
+    /* aligne les éléments sur la ligne centrale verticale */
+    gap: 1rem;
+    /* définit l'espacement horizontal entre les éléments */
+}
+
+#bt1 {
+    background: linear-gradient(to right, #4492CC, #3EBDF6);
+    color: white;
+    /* couleur du texte */
+    border: none;
+    /* supprime la bordure */
+    width: max-content;
+}
+
+#bt2 {
+    background: white;
+    color: #4492CC;
+    /* couleur du texte */
+    border-width: 2px;
+    border-color: #4492CC;
+    width: max-content;
+}
+
+#bt3 {
+    background: #E6E9F2;
+    color: gray;
+    /* couleur du texte */
+    border: none;
+    /* supprime la bordure */
+    width: 90px;
+    ;
+}
+
+div>input {
+    margin-bottom: 20px;
+}
+
+div>label {
+    color: gray;
+    margin-bottom: 10px;
+}
+
+#div1 {
+    background: linear-gradient(to right, #4492CC, #3EBDF6);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#div2 {
+    background: white;
+    border-width: 2px;
+    border-color: #4492CC;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+#div3 {
+    background: white;
+    border-width: 2px;
+    border-color: #4492CC;
+    border-radius: 5px;
+    border-style: solid;
+    color: #4492CC;
+}
+
+#td1{
+    width: max-content;
+}
+
+#th1{
+    margin-left: 20px;
+    width: max-content;
+}
